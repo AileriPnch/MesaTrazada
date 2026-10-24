@@ -69,7 +69,7 @@ def test_license_is_full_gplv3_with_copyright():
 
 
 def test_donations_hidden_until_they_have_a_link(qapp, window, monkeypatch):
-    assert all(url == "" for _, url in app_info.DONATIONS)  # marcadores: todavía sin cuentas
+    monkeypatch.setattr(app_info, "DONATIONS", (("Cafecito", ""), ("Ko-fi", "  ")))
     assert AboutDialog(window, 1.0).donations is None
     monkeypatch.setattr(app_info, "DONATIONS", (("Cafecito", ""), ("Ko-fi", "https://ko-fi.com/ejemplo")))
     dialog = AboutDialog(window, 1.0)
@@ -89,6 +89,23 @@ def test_about_texts_are_not_cut(window, size, monkeypatch):
         assert label.heightForWidth(label.width()) <= label.height() + 1, label.text()[:40]
     for button in (dialog.licenses_button, dialog.close_button):
         assert button.width() >= button.sizeHint().width()
+
+
+def test_about_shows_donations_and_source_link(qapp, window):
+    dialog = AboutDialog(window, 1.0)
+    assert dialog.donations is not None
+    text = dialog.donations.text()
+    assert "Cafecito" in text and "https://cafecito.app/aileri" in text
+    assert "Ko-fi" in text and "https://ko-fi.com/aileri57918" in text
+    assert "GitHub Sponsors" not in text
+    assert "Código fuente" in dialog.license.text()
+    assert "https://github.com/AileriPnch/MesaTrazada" in dialog.license.text()
+    assert dialog.donations.openExternalLinks() and dialog.license.openExternalLinks()
+
+
+def test_source_link_hidden_without_url(qapp, window, monkeypatch):
+    monkeypatch.setattr(app_info, "SOURCE_URL", "")
+    assert "Código fuente" not in AboutDialog(window, 1.0).license.text()
 
 
 def test_open_licenses_points_at_an_existing_folder(monkeypatch):

@@ -25,9 +25,9 @@ Una mesa de juego tranquila con dos clásicos:
 | ![Jaque mate: el rey vencido acostado y la tarjeta del resultado](docs/capturas/ajedrez_mate.jpg) | ![Acerca de: versión, licencia y créditos](docs/capturas/acerca_de.jpg) |
 
 ## Descargar y jugar
-<!-- TODO: enlaces a la página de itch.io y a las Releases del repositorio cuando existan -->
-1. Descargá `MesaTrazada-1.0.0-windows-x64.zip` (~130 MB) desde la página del juego en itch.io o desde las
-   *Releases* del repositorio.
+<!-- TODO: enlace a la página de itch.io cuando exista -->
+1. Descargá `MesaTrazada-1.0.1-windows-x64.zip` (~130 MB) desde las
+   [*Releases* del repositorio](https://github.com/AileriPnch/MesaTrazada/releases).
 2. Descomprimilo en cualquier carpeta y abrí `MesaTrazada.exe`. No hay que instalar nada: el motor, las fuentes
    y los sonidos vienen incluidos.
 
@@ -83,9 +83,8 @@ Detalle de cada componente, versiones y enlaces al código fuente en [CREDITS.md
 estudiarlo, modificarlo y compartirlo, siempre con esta misma licencia.
 
 ## Donaciones
-<!-- TODO: completar los enlaces (también en src/common/app_info.py, DONATIONS) -->
-El juego es y va a seguir siendo gratis. Si te gusta y querés invitarme un café: Cafecito · Ko-fi · GitHub Sponsors
-(enlaces próximamente).
+El juego es y va a seguir siendo gratis. Si te gusta y querés invitarme un café:
+[Cafecito](https://cafecito.app/aileri) (desde Argentina) o [Ko-fi](https://ko-fi.com/aileri57918).
 
 ---
 
@@ -99,9 +98,13 @@ El juego es y va a seguir siendo gratis. Si te gusta y querés invitarme un caf�
   animations that never make you wait, and an honest "no moves left" notice.
 - Works offline. The interface is in Spanish.
 
-**Download:** get `MesaTrazada-1.0.0-windows-x64.zip` from the itch.io page or the repository *Releases*, unzip
+**Download:** get `MesaTrazada-1.0.1-windows-x64.zip` from the repository
+[*Releases*](https://github.com/AileriPnch/MesaTrazada/releases) <!-- TODO: itch.io page -->, unzip
 it anywhere and run `MesaTrazada.exe` (Windows 10/11, 64-bit; nothing to install). The app is not code-signed:
 if SmartScreen warns you, choose *More info → Run anyway*.
 
 **From source:** Python 3.12, `pip install -r requirements.txt`, put Stockfish 19 at `engine\stockfish.exe` and run
 `python main.py`. Credits and third-party licenses: [CREDITS.md](CREDITS.md). License: [GPLv3](LICENSE).
+
+**Donations:** the game is and will stay free. If you enjoy it, you can buy me a coffee on
+[Ko-fi](https://ko-fi.com/aileri57918) or [Cafecito](https://cafecito.app/aileri).

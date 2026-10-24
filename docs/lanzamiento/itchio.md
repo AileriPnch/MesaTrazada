@@ -12,7 +12,7 @@
 | Estado | Released |
 | Precio | **$0 o donación** ("No payment" + "Allow donations": sugerido USD 2) |
 | Plataforma | Windows |
-| Archivo | `MesaTrazada-1.0.0-windows-x64.zip` (~130 MB), marcado como Windows |
+| Archivo | `MesaTrazada-1.0.1-windows-x64.zip` (~130 MB), marcado como Windows |
 | Género | Card Game (secundario: Strategy / Board Game) |
 | Idioma | Spanish (la interfaz); la página también en inglés |
 | Licencia del código | GPLv3 (enlace al repositorio en la descripción) |
@@ -48,7 +48,7 @@ cuentas y sin conexión a internet.
 ### También
 - Sonidos suaves (Kenney, CC0) con un único volumen.
 - Interfaz en español.
-- **Código abierto (GPLv3)**: <!-- TODO: enlace al repositorio -->
+- **Código abierto (GPLv3)**: https://github.com/AileriPnch/MesaTrazada
 
 ### Instalación
 Descomprimí el .zip y abrí `MesaTrazada.exe`. No hace falta instalar nada. Windows 10/11 de 64 bits.
@@ -82,5 +82,5 @@ single lamp. No ads, no accounts, works offline. Interface in Spanish. Free and 
 Imagen de portada (cover, 630 x 500): recortar `ajedrez_partida.jpg` sobre el tablero y la planilla.
 
 ## Donaciones
-Activar "Allow donations" con monto sugerido. Enlaces externos (Cafecito, Ko-fi, GitHub Sponsors) en la descripción
-cuando existan las cuentas: <!-- TODO -->
+Activar "Allow donations" con monto sugerido. Enlaces externos en la descripción:
+[Cafecito](https://cafecito.app/aileri) y [Ko-fi](https://ko-fi.com/aileri57918).

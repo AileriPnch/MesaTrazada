@@ -22,6 +22,8 @@ config.py                     Settings (dataclass) leído de .env OPCIONAL (junt
                               está; rutas relativas → raíz del proyecto (en el build, `_internal/`)
 main.py                       Entrada: logging → excepthook → _run() (imports diferidos) → diálogo si falla;
                               `--autoprueba <informe.json>` corre la prueba de humo (build)
+CHANGELOG.md                  Cambios por versión
+.github/FUNDING.yml           Botón de donación de GitHub (Ko-fi + Cafecito)
 LICENSE / CREDITS.md          GPLv3 con encabezado "Juan Scandizzo" / cada componente de terceros (versión, autor,
                               licencia, enlace; Stockfish con tag sf_19 y commit)
 README.md                     Público (español + resumen en inglés), capturas de docs/capturas/
@@ -81,7 +83,7 @@ src/common/theme.py           TOKENS de diseño de toda la app: Colors, TypeScal
                               la mesa del ajedrez: medidas en casillas, textos, foco, luz del reloj), CardLook
                               (solitario); colores pen_ink / print_ink / highlighter / engrave / thinking;
                               px(valor, u), window_scale(w, h)
-src/common/app_info.py        UN lugar: APP_NAME, VERSION (1.0.0), AUTHOR, SOURCE_URL, DONATIONS (vacías = ocultas),
+src/common/app_info.py        UN lugar: APP_NAME, VERSION (1.0.1), AUTHOR, SOURCE_URL, DONATIONS (vacías = ocultas),
                               CREDITS (los usa el Acerca de; test: también en CREDITS.md)
 src/common/paths.py           Carpetas desde el código o empaquetada: recursos, instalación (.env, licencias/), logs
                               (%LOCALAPPDATA%\MesaTrazada\logs en el build; migra la carpeta vieja
@@ -474,7 +476,9 @@ ventana llaman a `game.shutdown()` y la destruyen (`deleteLater`). Todo recurso 
   hasta la ventana 1,3 s recién descomprimido, 0,46 s después; prueba de humo completa ~29 s, OK.
 - Recursos en el build: `sys._MEIPASS` = `_internal/`; los módulos ubican assets con `Path(__file__)` y funcionan
   igual. `.env` y `licencias/` van junto al .exe (`paths.install_dir`); el log a %LOCALAPPDATA%.
-- Donaciones y repositorio: `app_info.DONATIONS` / `SOURCE_URL` vacíos (TODO del usuario: sin cuentas todavía).
+- Donaciones y repositorio: `app_info.DONATIONS` = Cafecito (https://cafecito.app/aileri) y Ko-fi
+  (https://ko-fi.com/aileri57918), también en `.github/FUNDING.yml`; sin GitHub Sponsors; `SOURCE_URL` = https://github.com/AileriPnch/MesaTrazada (el "Acerca de" muestra los dos).
+  Versiones en `CHANGELOG.md`.
 - Privacidad (auditoría 2026-10-23): sin secretos ni .env en la historia. En la historia SÍ quedan: el mail de los
   commits, el usuario de Windows en rutas de CLAUDE.md, en los metadatos de 36 PNG (todas sus versiones) y en el .blend
   de dd4d5ba. El árbol de trabajo ya está limpio (PNG, .blend, CLAUDE.md); la historia NO se reescribió: el usuario
@@ -563,8 +567,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\crear_acceso_direc
   %LOCALAPPDATA% y volumen del registro) se migran una vez. El repo público es OTRO: `../MesaTrazada` (un único commit
   "Mesa Trazada 1.0.0", autor con el mail noreply de GitHub, sin remoto); este repo queda con su historia.
 
-**299 tests.** Pendiente: que el usuario juegue contra Principiante; cuentas de donación y URL del repositorio
-(`app_info`); crear el remoto y publicar (lo hace el usuario).
+- [x] 1.0.1: enlaces de donación (Cafecito y Ko-fi) y del código fuente en el "Acerca de", README, itch.io,
+  `.github/FUNDING.yml` y `CHANGELOG.md` (local, sin publicar).
+
+**301 tests.** Pendiente: que el usuario juegue contra Principiante; la página de itch.io; crear el remoto y publicar
+(lo hace el usuario).
 
 Fuera de alcance: guardar partidas, estadísticas, reloj, pistas, evaluación en vivo, .exe.
 
