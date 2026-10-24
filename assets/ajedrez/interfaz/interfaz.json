@@ -1,0 +1,762 @@
+{
+ "unidades": "px de cada PNG, origen arriba a la izquierda; ancla = centro del objeto apoyado en la mesa; objeto = caja del objeto (x0, y0, x1, y1)",
+ "sprites": {
+  "planilla": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    1075,
+    1198
+   ],
+   "ancla": [
+    537.6,
+    599.0
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    998.4,
+    1121.3
+   ],
+   "papel": [
+    107.5,
+    179.2,
+    967.7,
+    1090.6
+   ],
+   "encabezado": [
+    179.2,
+    256.0
+   ],
+   "renglones": [
+    256.0,
+    332.8,
+    409.6,
+    486.4,
+    563.2,
+    640.0,
+    716.8,
+    793.6,
+    870.4,
+    947.2,
+    1024.0
+   ],
+   "filas": 10,
+   "columnas": [
+    107.5,
+    245.1,
+    606.4,
+    967.7
+   ],
+   "pie": [
+    1024.0,
+    1090.6
+   ]
+  },
+  "bandeja": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    435,
+    922
+   ],
+   "ancla": [
+    217.6,
+    460.8
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    358.4,
+    844.8
+   ],
+   "fieltro": [
+    97.3,
+    97.3,
+    337.9,
+    824.3
+   ]
+  },
+  "placa_principal": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    1075,
+    338
+   ],
+   "ancla": [
+    537.6,
+    169.0
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    998.4,
+    261.1
+   ],
+   "cara": [
+    138.2,
+    92.2,
+    937.0,
+    245.8
+   ]
+  },
+  "placa_secundaria": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    595,
+    307
+   ],
+   "ancla": [
+    297.6,
+    153.6
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    518.4,
+    230.4
+   ],
+   "cara": [
+    138.2,
+    92.2,
+    457.0,
+    215.0
+   ]
+  },
+  "cartel": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    1075,
+    282
+   ],
+   "ancla": [
+    537.6,
+    140.8
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    998.4,
+    204.8
+   ],
+   "cara": [
+    138.2,
+    89.6,
+    937.0,
+    192.0
+   ]
+  },
+  "tarjeta": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    922,
+    538
+   ],
+   "ancla": [
+    460.8,
+    268.8
+   ],
+   "objeto": [
+    76.8,
+    76.8,
+    844.8,
+    460.8
+   ],
+   "texto": [
+    128.0,
+    128.0,
+    793.6,
+    409.6
+   ]
+  },
+  "perilla": {
+   "px_por_casilla": 512,
+   "tamaño": [
+    281,
+    281
+   ],
+   "ancla": [
+    140.6,
+    140.6
+   ],
+   "objeto": [
+    61.4,
+    61.4,
+    219.7,
+    219.7
+   ]
+  },
+  "reloj": {
+   "px_por_casilla": 256,
+   "tamaño": [
+    922,
+    512
+   ],
+   "ancla": [
+    409.8,
+    328.2
+   ],
+   "camara": "20 grados",
+   "izquierda": "blancas",
+   "derecha": "negras",
+   "caja": [
+    102.4,
+    216.6,
+    717.1,
+    361.0
+   ],
+   "luces": {
+    "blancas": [
+     256.1,
+     341.1
+    ],
+    "negras": [
+     563.4,
+     341.1
+    ]
+   },
+   "esferas": {
+    "blancas": [
+     256.1,
+     274.4
+    ],
+    "negras": [
+     563.4,
+     274.4
+    ]
+   }
+  },
+  "rey_acostado": {
+   "px_por_casilla": 426.67,
+   "tamaño": [
+    512,
+    512
+   ],
+   "ancla": [
+    256.0,
+    445.4
+   ],
+   "reflejo_ancla": [
+    256.0,
+    51.2
+   ],
+   "camara": "20 grados (la de las piezas)"
+  }
+ },
+ "revision": {
+  "bandeja.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    358,
+    845
+   ]
+  },
+  "bandeja_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    76,
+    76,
+    359,
+    846
+   ]
+  },
+  "bandeja_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    374,
+    850
+   ]
+  },
+  "blancas_rey_acostado.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    84,
+    241,
+    428,
+    461
+   ]
+  },
+  "blancas_rey_acostado_brillo.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    148,
+    268,
+    380,
+    321
+   ]
+  },
+  "blancas_rey_acostado_contacto.png": {
+   "alfa_max": 0.875,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    122,
+    444,
+    157,
+    466
+   ]
+  },
+  "blancas_rey_acostado_reflejo.png": {
+   "alfa_max": 0.176,
+   "borde": 0.0,
+   "ok": true
+  },
+  "blancas_rey_acostado_sombra.png": {
+   "alfa_max": 0.612,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    117,
+    421,
+    322,
+    469
+   ]
+  },
+  "cartel.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    205
+   ]
+  },
+  "cartel_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    76,
+    77,
+    999,
+    205
+   ]
+  },
+  "cartel_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    1005,
+    207
+   ]
+  },
+  "negras_rey_acostado.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    84,
+    241,
+    428,
+    461
+   ]
+  },
+  "negras_rey_acostado_brillo.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    146,
+    264,
+    383,
+    332
+   ]
+  },
+  "negras_rey_acostado_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    116,
+    436,
+    189,
+    471
+   ]
+  },
+  "negras_rey_acostado_reflejo.png": {
+   "alfa_max": 0.176,
+   "borde": 0.0,
+   "ok": true
+  },
+  "negras_rey_acostado_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    116,
+    409,
+    476,
+    478
+   ]
+  },
+  "perilla_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    64,
+    64,
+    217,
+    217
+   ]
+  },
+  "perilla_hover.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    61,
+    61,
+    220,
+    220
+   ]
+  },
+  "perilla_normal.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    61,
+    61,
+    220,
+    220
+   ]
+  },
+  "perilla_pressed.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    61,
+    61,
+    220,
+    220
+   ]
+  },
+  "perilla_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    68,
+    65,
+    231,
+    227
+   ]
+  },
+  "placa_principal_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    76,
+    76,
+    999,
+    262
+   ]
+  },
+  "placa_principal_disabled.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    261
+   ]
+  },
+  "placa_principal_hover.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    261
+   ]
+  },
+  "placa_principal_normal.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    261
+   ]
+  },
+  "placa_principal_pressed.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    261
+   ]
+  },
+  "placa_principal_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    1050,
+    284
+   ]
+  },
+  "placa_principal_sombra_pressed.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    1036,
+    274
+   ]
+  },
+  "placa_secundaria_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    76,
+    76,
+    519,
+    231
+   ]
+  },
+  "placa_secundaria_disabled.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    518,
+    230
+   ]
+  },
+  "placa_secundaria_hover.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    518,
+    230
+   ]
+  },
+  "placa_secundaria_normal.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    518,
+    230
+   ]
+  },
+  "placa_secundaria_pressed.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    518,
+    230
+   ]
+  },
+  "placa_secundaria_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    570,
+    253
+   ]
+  },
+  "placa_secundaria_sombra_pressed.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    555,
+    243
+   ]
+  },
+  "planilla.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    998,
+    1121
+   ]
+  },
+  "planilla_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    76,
+    77,
+    999,
+    1121
+   ]
+  },
+  "planilla_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    1003,
+    1123
+   ]
+  },
+  "reloj_blancas.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    102,
+    138,
+    717,
+    366
+   ]
+  },
+  "reloj_contacto.png": {
+   "alfa_max": 0.902,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    103,
+    296,
+    716,
+    365
+   ]
+  },
+  "reloj_luz_blancas.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    243,
+    329,
+    269,
+    354
+   ]
+  },
+  "reloj_luz_negras.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    551,
+    329,
+    576,
+    354
+   ]
+  },
+  "reloj_negras.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    102,
+    138,
+    717,
+    366
+   ]
+  },
+  "reloj_parejos.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    102,
+    138,
+    717,
+    366
+   ]
+  },
+  "reloj_sombra.png": {
+   "alfa_max": 0.62,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    108,
+    296,
+    793,
+    375
+   ]
+  },
+  "tarjeta.png": {
+   "alfa_max": 1.0,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    845,
+    461
+   ]
+  },
+  "tarjeta_contacto.png": {
+   "alfa_max": 0.655,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    845,
+    461
+   ]
+  },
+  "tarjeta_sombra.png": {
+   "alfa_max": 0.616,
+   "borde": 0.0,
+   "ok": true,
+   "visible": [
+    77,
+    77,
+    846,
+    461
+   ]
+  }
+ }
+}

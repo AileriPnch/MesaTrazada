@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+logs/*
+!logs/.gitkeep
+engine/
+.idea/
+docs/screenshots/
+blender/previews/
+blender/*.blend1
+
+# Build de Windows (scripts/build_windows.py)
+build/
+dist/
+*.spec

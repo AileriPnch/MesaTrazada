@@ -1,0 +1,76 @@
+Los sonidos de esta carpeta se derivan de tres packs de Kenney (https://kenney.nl), publicados con
+licencia Creative Commons Zero (CC0 1.0, dominio público: https://creativecommons.org/publicdomain/zero/1.0/).
+Se recortaron, mezclaron, suavizaron y normalizaron con scripts/preparar_sonidos.py; qué archivo sale de qué
+sonido original está en FUENTES.md. Abajo, el texto de licencia de cada pack tal como viene en su zip.
+
+===== Casino Audio (https://kenney.nl/assets/casino-audio) — License.txt =====
+	
+
+	Casino Audio (1.1)
+
+	by  Kenney Vleugels (Kenney.nl)
+
+			------------------------------
+
+	License (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	You may use these assets in personal and commercial projects.
+	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
+
+			------------------------------
+
+	Donate:   http://support.kenney.nl
+	Request:  http://request.kenney.nl
+
+	Follow on Twitter for updates:
+	@KenneyNL
+
+===== Impact Sounds (https://kenney.nl/assets/impact-sounds) — License.txt =====
+	
+
+	Impact Sounds (1.0)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 19-12-2019
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+
+	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+
+			------------------------------
+
+	Donate:   http://support.kenney.nl
+	Request:  http://request.kenney.nl
+	Patreon:  http://patreon.com/kenney/
+
+	Follow on Twitter for updates:
+	http://twitter.com/KenneyNL
+
+===== Music Jingles (https://kenney.nl/assets/music-jingles) — License.txt =====
+	
+
+	Music Jingles
+
+	by  Kenney Vleugels (Kenney.nl)
+
+			------------------------------
+
+	License (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	You may use these assets in personal and commercial projects.
+	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
+
+			------------------------------
+
+	Donate:   http://support.kenney.nl
+	Request:  http://request.kenney.nl
+
+	Follow on Twitter for updates:
+	@KenneyNL

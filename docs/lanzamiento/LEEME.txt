@@ -1,0 +1,34 @@
+MESA TRAZADA
+============
+
+Ajedrez contra Stockfish (6 niveles, de Principiante a Máximo) y Solitario Klondike, para Windows 10/11 (64 bits).
+Gratis y de código abierto (GNU GPL v3).
+
+CÓMO JUGAR
+- Descomprimí el .zip en cualquier carpeta (por ejemplo, Documentos) y abrí MesaTrazada.exe.
+- No hace falta instalar nada: el motor de ajedrez, las fuentes y los sonidos vienen incluidos.
+- F1 (o "Acerca de", abajo a la derecha del inicio) muestra la versión, la licencia y los créditos.
+- Para desinstalar, borrá la carpeta. La app sólo guarda el volumen en el registro del usuario
+  (HKCU\Software\JScandizzo\MesaTrazada) y su registro de errores en %LOCALAPPDATA%\MesaTrazada\logs.
+
+SI WINDOWS LO BLOQUEA
+La app no está firmada digitalmente: SmartScreen puede mostrar "Windows protegió su PC". Tocá "Más información" y
+"Ejecutar de todas formas". Si tu antivirus la marca, es un falso positivo habitual de los programas hechos con
+PyInstaller; el código fuente está publicado y podés compilarla vos mismo.
+
+AJUSTAR LA DIFICULTAD (opcional)
+Copiá "config.env.ejemplo" como ".env" en esta misma carpeta y cambiá los valores (ver el README del proyecto).
+Sin ese archivo se usan los valores calibrados.
+
+LICENCIAS
+LICENSE.txt (GPL v3) y la carpeta licencias/ (Stockfish, python-chess, PyQt6/Qt, fuentes, sonidos, Python).
+Stockfish 19 se incluye sin modificar; su código fuente:
+https://github.com/official-stockfish/Stockfish/tree/sf_19
+
+-------------------------------------------------------------------------------------------------------------------
+
+MESA TRAZADA (English)
+Chess against Stockfish (6 levels) and Klondike solitaire for Windows 10/11 (64-bit). Free and open source (GPLv3).
+Unzip anywhere and run MesaTrazada.exe; nothing to install. The interface is in Spanish.
+If SmartScreen warns about an unknown publisher: "More info" > "Run anyway" (the app is not code-signed).
+Licenses: LICENSE.txt and the licencias/ folder. Stockfish source: https://github.com/official-stockfish/Stockfish/tree/sf_19
